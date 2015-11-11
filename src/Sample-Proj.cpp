@@ -14,5 +14,6 @@ int main() {
 #ifdef TEST
 	cout << "!!!This is in another profile!!!" << endl;
 #endif
+	cout << "This print should come on test-branch build" << endl;
 	return 0;
 }
